@@ -1,0 +1,11 @@
+AI Code Review - Labo 2 (Stijl en Selectoren)
+
+Hieronder volgt de evaluatie van de stylesheet op basis van de syllabus en de opgavevereisten:
+
+1. Gebruik van pixels in plaats van rem (Sectie 2.8): In de initiële code stond font-size: 16px; op de body. Dit is aangepast zodat het volgens de regels in rem wordt uitgedrukt (1rem), wat ervoor zorgt dat de basismaat netjes schaalt.
+2. Onjuiste lettertype-toewijzing (Sectie 2.6 & Opgave): De opgave stelt dat de hoofdtekst in Verdana en de koppen in Georgia moeten staan. Omdat deze in de eerste versie door elkaar stonden in --font-body, is dit nu correct opgesplitst per elementtype.
+3. Ontbrekende interactieve states (Sectie 2.2): Niet alle links hadden direct de vereiste :hover- en :focus-stijlen (zoals de specifieke achtergrondkleurwissel bij main a), wat in het definitieve stylesheet volledig is aangevuld.
+4. Validatie van structuurselectoren (Sectie 2.7): Er is gecontroleerd of er geen verboden ID-selectors of !important-regels zijn gebruikt, en of er optimaal gebruik is gemaakt van overerving en elementselectoren.
+5. Beheer van lijsten en opmaak (Sectie 2.9): Het zebrapatroon via .kaart li:nth-child(odd) en de bijbehorende list-styling vereisten een correcte toepassing van de :root-tokens om de kleuren consistent te houden met de ontwerpspecificaties.
+
+Conclusie: De code voldoet na deze aanpassingen volledig aan alle technische voorwaarden en richtlijnen van het labo.

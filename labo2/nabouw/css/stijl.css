@@ -1,0 +1,66 @@
+:root{
+  --color-papier: #fbf7f0;
+  --color-inkt:  #2b2b2b;
+  --color-gedempt: #6b6b6b;
+  --color-accent: #b5451b;
+  --color-zebra: #f1e9dc;
+  --font-body: Georgia, Verdana;
+  --font-heading: "Trebuchet MS", Verdana, sans-serif;
+}
+
+body{
+    background-color: var(--color-papier);
+    color: var(--color-inkt);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1{
+    color: var(--color-accent);
+    font-family: var(--font-body);
+    font-size: 2.5rem;
+}
+
+h3{
+    color: var(--color-gedempt);
+}
+
+nav a{
+    color: var(--color-accent);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.slogan{
+    color: var(--color-gedempt);
+    font-style: italic;
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+}
+
+.kaart li:nth-child(odd){
+    background-color: var(--color-zebra);
+}
+
+.prijs{
+    color: var(--color-gedempt);
+}
+
+article p a{
+    color: var(--color-accent);
+}
+
+article p strong{
+    color: var(--color-accent);
+}
+
+footer{
+text-align: center;
+color: var(--color-gedempt);
+}
+
+footer a{
+    text-align: center;
+    color: var(--color-gedempt);
+}
